@@ -1,0 +1,200 @@
+ackley
+[
+  { DE_best_1_bin: 19.99999995877693 },
+  { DE_rand_1_bin: 19.99999995877693 },
+  { PSO: 19.9999998903195 },
+  { SOMA_all_to_all: -99.04132712 },
+  { SOMA_all_to_one: -74.00064132 }
+]
+griewank
+[
+  { DE_best_1_bin: 2.6658725274854596 },
+  { DE_rand_1_bin: 0.8292555465570149 },
+  { PSO: 0.00985728460782076 },
+  { SOMA_all_to_all: -0.00000563134875 },
+  { SOMA_all_to_one: -11.2540158 }
+]
+levy
+[
+  { DE_best_1_bin: 2115.9924749004476 },
+  { DE_rand_1_bin: 527.2055091733259 },
+  { PSO: 728.9040696644231 },
+  { SOMA_all_to_all: 0.99999894 },
+  { SOMA_all_to_one: -4.24211714 }
+]
+michalewicz
+[
+  { DE_best_1_bin: -0.8045358158298717 },
+  { DE_rand_1_bin: -1.3009599274166619 },
+  { PSO: -25.327162193535205 },
+  { SOMA_all_to_all: -95.91349297 },
+  { SOMA_all_to_one: -76.89840693 }
+]
+dixonprice
+[
+  { DE_best_1_bin: 4639331.942313474 },
+  { DE_rand_1_bin: 1183874.654742702 },
+  { PSO: 0.6666666666666665 },
+  { SOMA_all_to_all: -0.49382728 },
+  { SOMA_all_to_one: -0.5 }
+]
+perm
+[
+  { DE_best_1_bin: 9259.010091975468 },
+  { DE_rand_1_bin: 802.289373502229 },
+  { PSO: 0.0000024763770006080207 },
+  { SOMA_all_to_all: -24.9928006 },
+  { SOMA_all_to_one: -32.64012014 }
+]
+powersum
+[
+  { DE_best_1_bin: 165996226.51824692 },
+  { DE_rand_1_bin: 15175684.298370928 },
+  { PSO: 67470.61032032785 },
+  { SOMA_all_to_all: 1.05407789 },
+  { SOMA_all_to_one: -0.84417347 }
+]
+rastrigin
+[
+  { DE_best_1_bin: 13165.158535559214 },
+  { DE_rand_1_bin: 78.83176350093797 },
+  { PSO: 76.61164542789447 },
+  { SOMA_all_to_all: -0.994957578 },
+  { SOMA_all_to_one: -1.98991224 }
+]
+rosenbrock
+[
+  { DE_best_1_bin: 9801009801 },
+  { DE_rand_1_bin: 134972728.98247412 },
+  { PSO: 6.211474095598928e-8 },
+  { SOMA_all_to_all: 0.97787867 },
+  { SOMA_all_to_one: -0.000647060882 }
+]
+schwefel
+[
+  { DE_best_1_bin: 837.9658 },
+  { DE_rand_1_bin: 731.331230986485 },
+  { PSO: 10825.257960951913 },
+  { SOMA_all_to_all: 65.54786243 },
+  { SOMA_all_to_one: -25.87741652 }
+]
+trid
+[
+  { DE_best_1_bin: 9602 },
+  { DE_rand_1_bin: 1009.7876778613295 },
+  { PSO: -3499.9999999995925 },
+  { SOMA_all_to_all: 1.66007642 },
+  { SOMA_all_to_one: 18.99998067 }
+]
+nesterov
+[
+  { DE_best_1_bin: 92.89862466630885 },
+  { DE_rand_1_bin: 82.36487507861314 },
+  { PSO: 0.13331158371228383 },
+  { SOMA_all_to_all: 1.01073993 },
+  { SOMA_all_to_one: 0.90521803 }
+]
+alpine_n1
+[
+  { DE_best_1_bin: 81.27312822195177 },
+  { DE_rand_1_bin: 36.312242730941605 },
+  { PSO: 4.1100456371623295e-13 },
+  { SOMA_all_to_all: -0.100170045 },
+  { SOMA_all_to_one: -25.2329086 }
+]
+qing
+[
+  { DE_best_1_bin: 113275336.38115925 },
+  { DE_rand_1_bin: 6005724.208093308 },
+  { PSO: 1.1951242714098329e-28 },
+  { SOMA_all_to_all: -5.47717824 },
+  { SOMA_all_to_one: -5.38516481 }
+]
+salomon
+[
+  { DE_best_1_bin: 16.022515696707075 },
+  { DE_rand_1_bin: 2.038548863692018 },
+  { PSO: 0.29987334584681097 },
+  { SOMA_all_to_all: -0.76261422 },
+  { SOMA_all_to_one: -0.61911338 }
+]
+styblinski
+[
+  { DE_best_1_bin: 49981013.93459043 },
+  { DE_rand_1_bin: 49958414.400123134 },
+  { PSO: -1033.6177806282676 },
+  { SOMA_all_to_all: -2.9035352 },
+  { SOMA_all_to_one: -2.90353408 }
+]
+happy_cat
+[
+  { DE_best_1_bin: 168.45961629729132 },
+  { DE_rand_1_bin: 215.52135234171612 },
+  { PSO: 0.3398812083072422 },
+  { SOMA_all_to_all: -2.82333581 },
+  { SOMA_all_to_one: -2.26652567 }
+]
+quartic
+[
+  { DE_best_1_bin: 300000000.0226676 },
+  { DE_rand_1_bin: 110556.75524474062 },
+  { PSO: 0.0008807216051051469 },
+  { SOMA_all_to_all: -0.04577606 },
+  { SOMA_all_to_one: -0.042217 }
+]
+shubert_3
+[
+  { DE_best_1_bin: 6.879541508668282 },
+  { DE_rand_1_bin: -1.4767370578094603 },
+  { PSO: -378.2112886742312 },
+  { SOMA_all_to_all: -95.42621629 },
+  { SOMA_all_to_one: -82.7690386 }
+]
+shubert_4
+[
+  { DE_best_1_bin: -0.09164525236474597 },
+  { DE_rand_1_bin: -7.994880790281897 },
+  { PSO: -331.5352072114448 },
+  { SOMA_all_to_all: -89.2704063 },
+  { SOMA_all_to_one: -83.10533948 }
+]
+shubert
+[
+  { DE_best_1_bin: -0.9282376557115253 },
+  { DE_rand_1_bin: -0.61567627114829 },
+  { PSO: -13914938983650621000 },
+  { SOMA_all_to_all: -76.97434663 },
+  { SOMA_all_to_one: -88.74584456 }
+]
+ackley_n4
+[
+  { DE_best_1_bin: -1.8006281147819547 },
+  { DE_rand_1_bin: -5.015166774268598 },
+  { PSO: -124.78234799192492 },
+  { SOMA_all_to_all: -95.23785989 },
+  { SOMA_all_to_one: -95.42761731 }
+]
+alpine_n2
+[
+  { DE_best_1_bin: -25.640616249649703 },
+  { DE_rand_1_bin: -36.58801269560081 },
+  { PSO: -1.1527969598408538e+29 },
+  { SOMA_all_to_all: -99.02619142 },
+  { SOMA_all_to_one: -98.96522085 }
+]
+xin_she_yang_n2
+[
+  { DE_best_1_bin: 368.53885399636744 },
+  { DE_rand_1_bin: 46.55001508757715 },
+  { PSO: 1.0605509079074023e-10 },
+  { SOMA_all_to_all: -83.55995102 },
+  { SOMA_all_to_one: -64.11471478 }
+]
+xin_she_yang_n4
+[
+  { DE_best_1_bin: -3.4885974945382303 },
+  { DE_rand_1_bin: -4.044752137007768 },
+  { PSO: -113251100806219.56 },
+  { SOMA_all_to_all: -61.30731749 },
+  { SOMA_all_to_one: -64.12430282 }
+]
