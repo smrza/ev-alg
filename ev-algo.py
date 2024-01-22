@@ -296,15 +296,20 @@ def evaluate(function, params):
     """Returns fitness of the params"""
     return function(params)
 
+# https://chat.openai.com/share/2c03a887-42e0-4078-aeb0-77f9b366414e
 def bounded(params, min_s: list, max_s: list):
     """
-    Returns bounded version of params
-    All params that are outside of bounds (min_s, max_s) are reassigned by a random number within bounds
+    Returns bounded version of params with reflection boundary check.
+    All params that are outside of bounds (min_s, max_s) are reflected back into the bounds.
     """
-    return np.array([np.random.uniform(min_s[d], max_s[d])
-            if params[d] < min_s[d] or params[d] > max_s[d] 
-            else params[d] 
-            for d in range(len(params))])
+    def reflect(param, min_val, max_val):
+        if param < min_val:
+            return min_val + (min_val - param)
+        elif param > max_val:
+            return max_val - (param - max_val)
+        return param
+
+    return np.array([reflect(params[d], min_s[d], max_s[d]) for d in range(len(params))])
 
 def generate_population(size, min_s, max_s, dimension, function):
     def generate_individual():
