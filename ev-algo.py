@@ -504,10 +504,10 @@ dimensions_list = [2, 10, 30]
 population_sizes = {2: 10, 10: 10, 30: 50}
 iterations = 30
 functionEvaluations = 2000
-# functions = [ackley, griewank, levy, michalewicz, dixonprice, perm, powersum, rastrigin, rosenbrock, schwefel, trid, nesterov, 
+# functions = [ackley, griewank, michalewicz, levy, dixonprice, perm, powersum, rastrigin, rosenbrock, schwefel, trid, nesterov, 
 #              alpine_n1, qing, salomon, styblinski, happy_cat, quartic, shubert_3, shubert_4, shubert, ackley_n4, alpine_n2,
 #              xin_she_yang_n2, xin_she_yang_n4]
-functions = [ackley, griewank, levy]
+functions = [ackley, griewank, michalewicz]
 
 ####
 # pso
