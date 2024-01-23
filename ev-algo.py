@@ -483,7 +483,7 @@ def pso(function, dimensions, population_size, iterations, c1 = 1.49618, c2 = 1.
 # settings
 ####
 def write_results(function_name, dimension, results, alg_name):
-    base_dir = "results"
+    base_dir = "results-latest"
     dimension_dir = os.path.join(base_dir, alg_name, str(dimension))
     file_path = os.path.join(dimension_dir, function_name)
     os.makedirs(os.path.dirname(file_path), exist_ok=True)
@@ -504,9 +504,10 @@ dimensions_list = [2, 10, 30]
 population_sizes = {2: 10, 10: 10, 30: 50}
 iterations = 30
 functionEvaluations = 2000
-functions = [ackley, griewank, levy, michalewicz, dixonprice, perm, powersum, rastrigin, rosenbrock, schwefel, trid, nesterov, 
-             alpine_n1, qing, salomon, styblinski, happy_cat, quartic, shubert_3, shubert_4, shubert, ackley_n4, alpine_n2,
-             xin_she_yang_n2, xin_she_yang_n4]
+# functions = [ackley, griewank, levy, michalewicz, dixonprice, perm, powersum, rastrigin, rosenbrock, schwefel, trid, nesterov, 
+#              alpine_n1, qing, salomon, styblinski, happy_cat, quartic, shubert_3, shubert_4, shubert, ackley_n4, alpine_n2,
+#              xin_she_yang_n2, xin_she_yang_n4]
+functions = [ackley, griewank, levy]
 
 ####
 # pso
@@ -755,12 +756,12 @@ def calculate_de_best_1_bin(cost_function):
 ####
 # run
 ####
-for function in functions:
-    calculate_pso(function)
-for function in functions:
-    calculate_de_rand_1_bin(function)
-for function in functions:
-    calculate_de_best_1_bin(function)
+# for function in functions:
+#     calculate_pso(function)
+# for function in functions:
+#     calculate_de_rand_1_bin(function)
+# for function in functions:
+#     calculate_de_best_1_bin(function)
 for function in functions:
     calculate_soma_all_to_one(function)
 for function in functions:
